@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  max-width: 1600px;
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans Condensed", serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 31px 160px;
+  margin-bottom: 20px;
+}
+nav ul li {
+  list-style: none;
+}
+.nav-button {
+  font-size: 18px;
+  font-weight: 600;
+  width: 116px;
+  height: 52px;
+  color: #006a50;
+  padding: 15px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px solid rgb(0, 106, 80);
+}
+.nav-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0e0e0e;
+}
+
+.banner {
+  display: flex;
+  margin: 0 160px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 24px;
+  background: #C6E4D6;
+  padding: 80px 100px;
+}
+.banner-sub-title {
+  font-size: 24px;
+  font-weight: 500;
+  height: 29px;
+  margin-bottom: 16px;
+}
+.banner-title {
+  font-size: 56px;
+  font-weight: 700;
+  width: 560px;
+  margin-bottom: 24px;
+}
+.btn-explore {
+  width: 270px;
+  height: 56px;
+  padding: 17px 34px 17px 34px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  background: #006A50;
+  color: #FFFFFF;
+
+}
