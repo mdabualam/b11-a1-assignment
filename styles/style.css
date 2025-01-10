@@ -40,7 +40,7 @@ nav ul li {
   align-items: center;
   justify-content: space-between;
   border-radius: 24px;
-  background: #C6E4D6;
+  background: #c6e4d6;
   padding: 80px 100px;
 }
 .banner-sub-title {
@@ -63,7 +63,49 @@ nav ul li {
   border: none;
   font-size: 18px;
   font-weight: 600;
-  background: #006A50;
-  color: #FFFFFF;
+  background: #006a50;
+  color: #ffffff;
+}
 
+.pillars {
+  padding: 80px 160px;
+}
+.pillars-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0E0E0E;
+}
+.development-process {
+  display: flex;
+  margin-top: 32px;
+}
+.innovation,
+.sustainability,
+.infrastructure,
+.empowerment {
+  width: 300px;
+  height: 244px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  /* margin-right: 24px; */
+  padding: 24px;
+}
+.innovation,
+.sustainability,
+.infrastructure{
+  margin-right: 24px;
+}
+.innovation-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e0e0ecc;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+.innovation-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0eb3;
 }
