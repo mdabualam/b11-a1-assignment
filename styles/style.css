@@ -482,6 +482,31 @@ time {
   color: rgb(255, 255, 255);
   border: none;
 }
-.btn-wrapper{
+.btn-wrapper {
   position: relative;
+}
+footer {
+  max-width: 1600px;
+  height: 226px;
+  padding: 50px 160px;
+  text-align: center;
+}
+.footer-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(14, 14, 14);
+  margin-bottom: 32px;
+}
+footer hr{
+  margin: 0 100px;
+  margin-bottom: 32px;
+}
+.social-media{
+  display: flex;
+  justify-content: center;
+  gap: 30;
+  margin-right: 30px;
+}
+.fb, .ins{
+  margin-right: 25px;
 }
