@@ -6,9 +6,6 @@
   padding: 0;
   font-family: "Fira Sans Condensed", serif;
 }
-body {
-  background: lightgray;
-}
 
 /* nav styles */
 nav {
@@ -43,6 +40,9 @@ nav ul li {
   font-size: 40px;
   font-weight: 700;
   color: #0e0e0e;
+}
+.hover-effect:hover {
+  background-color: tomato;
 }
 
 /* banner styles  */
@@ -229,8 +229,8 @@ nav ul li {
 .quote-content {
   padding: 48px 24px;
   box-sizing: border-box;
-  border: none;
   border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
   background: rgb(255, 255, 255);
 }
 .quote-description {
@@ -284,7 +284,7 @@ nav ul li {
 }
 .box-header {
   box-sizing: border-box;
-  border: none;
+  border: 1px solid rgba(14, 14, 14, 0.15);
   background: rgb(198, 228, 214);
 }
 .box-question {
@@ -297,7 +297,7 @@ nav ul li {
 }
 .question-to-answer {
   width: 1000px;
-  height: 92px;
+  height: 90px;
   font-size: 16px;
   font-weight: 600;
   color: rgb(14, 14, 14);
@@ -345,7 +345,10 @@ nav ul li {
   border: none;
 }
 .news-update {
-  margin-left: 34px;
+  margin-left: 32px;
+}
+.news-reverse{
+  margin-right: 32px;
 }
 .news-update img {
   max-width: 134px;
