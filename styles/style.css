@@ -98,7 +98,6 @@ nav ul li {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(255, 255, 255);
-  /* margin-right: 24px; */
   padding: 24px;
 }
 .innovation,
@@ -230,7 +229,6 @@ nav ul li {
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(255, 255, 255);
-
 }
 .quote-description {
   font-size: 16px;
@@ -248,5 +246,74 @@ nav ul li {
 .quote-designation {
   font-size: 16px;
   font-weight: 400;
-  color: #0E0E0E99;
+  color: #0e0e0e99;
+}
+
+/* opinion styles */
+.opinion {
+  padding: 80px 160px;
+  margin-bottom: 24px;
+}
+.opinion-content {
+  max-width: 1280px;
+}
+.opinion-question {
+  margin-top: 32px;
+  height: 409px;
+  padding: 32px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.891);
+}
+
+.box-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+.opinion-question h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(14, 14, 14);
+}
+.box-header {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(198, 228, 214);
+}
+.box-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+}
+.question-to-answer {
+  width: 1017px;
+  height: 92px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(14, 14, 14);
+  padding: 24px;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn-answer {
+  width: 152px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+  background: rgb(198, 228, 214);
+  font-size: 16px;
+  font-weight: 500;
+}
+.answer-button{
+  padding: 10px 14px 10px 14px;
 }
