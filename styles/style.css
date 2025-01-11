@@ -429,6 +429,59 @@ time {
   border: none;
   background: rgb(255, 255, 255);
 }
-.donate-background{
+.donate-background {
   background: rgb(198, 228, 214);
+}
+
+/* subscribe styles*/
+
+.subscribe {
+  max-width: 1280px;
+  padding: 0 160px 80px 160px;
+  text-align: center;
+}
+.section-content {
+  padding: 80px 100px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
+.subscription-details {
+  width: 600px;
+  height: 48px;
+  margin: 16px 340px 32px 240px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+.commit-promise {
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+}
+.input-email {
+  width: 500px;
+  height: 40px;
+  padding: 18px 40px 18px 40px;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
+  border: none;
+}
+.btn-submit {
+  position: absolute;
+  width: 150px;
+  height: 76px;
+  padding: 17px 34px 17px 34px;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border: none;
+}
+.btn-wrapper{
+  position: relative;
 }
