@@ -7,6 +7,7 @@
   font-family: "Fira Sans Condensed", serif;
 }
 
+/* nav styles */
 nav {
   display: flex;
   justify-content: space-between;
@@ -34,6 +35,14 @@ nav ul li {
   color: #0e0e0e;
 }
 
+/* common styles */
+.section-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0E0E0E;
+}
+
+/* banner styles  */
 .banner {
   display: flex;
   margin: 0 160px;
@@ -66,15 +75,15 @@ nav ul li {
   background: #006a50;
   color: #ffffff;
 }
+.btn-explore:hover {
+  background-color: tomato;
+}
 
+/* pillars styles */
 .pillars {
   padding: 80px 160px;
 }
-.pillars-title {
-  font-size: 40px;
-  font-weight: 700;
-  color: #0E0E0E;
-}
+
 .development-process {
   display: flex;
   margin-top: 32px;
@@ -94,7 +103,7 @@ nav ul li {
 }
 .innovation,
 .sustainability,
-.infrastructure{
+.infrastructure {
   margin-right: 24px;
 }
 .innovation-title {
@@ -108,4 +117,99 @@ nav ul li {
   font-size: 16px;
   font-weight: 400;
   color: #0e0e0eb3;
+}
+
+/* vision styles */
+
+.vision-container{
+  display: flex;
+  justify-content: space-around;
+}
+.vision {
+  padding: 0 160px;
+}
+.vision-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0eb3;
+  margin-top: 24px;
+}
+.vision-digital{
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: #5490f533;
+  margin-top: 32px;
+}
+.vision-green{
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: #C6E4D6;
+  margin-top: 32px;
+}
+.vision-modern{
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: #F7EBCF;
+  margin-top: 32px;
+}
+.vision-digital, .vision-green, .vision-modern{
+  width: 400px;
+  height: 325px;
+}
+.vision-digital, .vision-green{
+  margin-right: 24px;
+}
+.info-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e0e0ecc;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+.info-description {
+  font-size: 16px;
+  font-weight: 400;
+  color:#0E0E0EB3;
+}
+.btn-digital {
+  width: 122px;
+  height: 41px;
+  border-radius: 8px;
+  border: none;
+  background: #5490f5;
+  padding: 11px 20px 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 24px;
+}
+.btn-green{
+  width: 122px;
+  height: 41px;
+  border-radius: 8px;
+  border: none;
+  background: #09A15C;
+  padding: 11px 20px 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 48px;
+}
+.btn-modern{
+  width: 122px;
+  height: 41px;
+  border-radius: 8px;
+  border: none;
+  background: #FFC239;
+  padding: 11px 20px 11px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 50px;
+}
+.btn-digital:hover, .btn-green:hover, .btn-modern:hover{
+  background-color: tomato;
 }
