@@ -223,21 +223,21 @@ nav ul li {
 .quote {
   margin-top: 32px;
   padding: 0 160px;
- 
+}
 .quote-content {
   padding: 48px 24px;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   background: rgb(255, 255, 255);
-  background-image: url(../assets/quote-bg.png);
-  background-repeat: no-repeat;
-}
+
 }
 .quote-description {
   font-size: 16px;
   font-weight: 400;
   color: #0e0e0ecc;
+  background-image: url(../assets/quote-bg.png);
+  background-repeat: no-repeat;
 }
 .quote-person {
   font-size: 20px;
